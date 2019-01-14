@@ -11,7 +11,7 @@ single precision, and at regular intervals printed on the serial port.
 - 3 x 1024 long buffer for storing 3-axes accelerometer data
 
 - configurable sampling period of 1, 2, 4, 8, 16 and 32 seconds, or
-equivalently, width of frequency bin of 1, 2, 4, 8, 16 or 32 Hz,
+equivalently, width of frequency bin of 1, 1/2, 1/4, 1/8, 1/16 or 1/32 Hz,
 and max frequency of 512, 256, 128, 64, 32 or 16 Hz.
 
 - serial port parameters are: the speed is 115,200 bps, then 8N1
