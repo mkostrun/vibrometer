@@ -21,9 +21,15 @@ for 8 data bits, no parity check and 1 stop bit.
 device is in *quiet* mode. The device samples the data continously, but only in
 *print* mode it performs the fast fourier transform and prints the data on serial port..
 
-  To stop printing and go to *quiet* mode:
+  In *print* mode the device responds to these commands:
 
-  - *q*
+  - *s*, stop printing labels
+
+  - *q*, stop printing and go to *quiet* mode
+
+
+  In *quiet* mode the following can be configured:
+
 
   All modulation amplitudes are scaled (and clipped) to
 
