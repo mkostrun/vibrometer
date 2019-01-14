@@ -17,3 +17,34 @@ and max frequency of 512, 256, 128, 64, 32 or 16 Hz.
 - the device has two states: *print* (fft data to serial port), or *quiet* (accepts
 change in configuration). Serial port parameters are: the speed is 115,200 bps, then 8N1
 for 8 data bits, no parity check and 1 stop bit.
+
+- Commands for manipulating the device:
+
+  All modulation amplitudes are scaled (and clipped) to
+
+  - *u*, set max modulation amplitude to 1
+
+  - *d*, set max modulation amplitude to 0.1
+
+  - *c*, set max modulation amplitude to 0.01
+
+  - *m*, set max modulation amplitude to 0.001
+
+  then rounded to a 2-digit hex number. This is printed on the serial port. If the
+  value is 0, this is printed as '_'. Following last non-zero entry for modulation
+  amplitude 'X' is printed, meaning that the remaining amplitudes are all zero. 
+
+  The sampling period is specified as follows:
+
+  0, 1 second
+
+  1, 2 seconds
+
+  2, 4 seconds
+
+  3, 8 seconds
+
+  4, 16 seconds
+
+  5, 32 seconds.
+  
