@@ -15,4 +15,5 @@ equivalently, width of frequency bin of 1, 2, 4, 8, 16 or 32 Hz,
 and max frequency of 512, 256, 128, 64, 32 or 16 Hz.
 
 - the device has two states: *print* (fft data to serial port), or *quiet* (accepts
-change in configuration). Serial port speed is 115,200 bps, 8N1.
+change in configuration). Serial port parameters are: the speed is 115,200 bps, then 8N1
+for 8 data bits, no parity check and 1 stop bit.
