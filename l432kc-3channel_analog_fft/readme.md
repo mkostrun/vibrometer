@@ -17,8 +17,9 @@ and max frequency of 512, 256, 128, 64, 32 or 16 Hz.
 - serial port parameters are: the speed is 115,200 bps, then 8N1
 for 8 data bits, no parity check and 1 stop bit.
 
-- The device uses TIM1 to create timed interrupts that initiate ADC sampling with
-an interrupt on end-of-conversion (EOC), which invokes DMA to transfer data back
+- The device uses TIM1 to create timed interrupts that initiate ADC sampling
+of channels with the board designations A1, A2 and A3.
+These use an end-of-conversion (EOC) interrupt, which in turn invokes DMA to transfer data back
 to the user. Every 1/3 of sampling time, the sampled data is transferred to a new
 buffer and its FFT computed and scaled.
 
