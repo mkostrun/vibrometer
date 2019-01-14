@@ -48,3 +48,18 @@ for 8 data bits, no parity check and 1 stop bit.
 
   - *5*, 32 seconds.
   
+  
+  Other commands, in *quiet* mode:
+
+  - *f*, print firmware revision
+
+  - *l*, print labels for the quantities with their values, as in 'NAME=val'
+
+  - *s*, do not print labels
+
+  - *p*, go to printing mode.
+
+
+  To stop printing and go to *quiet* mode:
+
+  - *q*
