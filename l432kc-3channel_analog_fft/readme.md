@@ -36,15 +36,15 @@ for 8 data bits, no parity check and 1 stop bit.
 
   The sampling period is specified as follows:
 
-  0, 1 second
+  - *0*, 1 second,
 
-  1, 2 seconds
+  - *1*, 2 seconds,
 
-  2, 4 seconds
+  - *2*, 4 seconds,
 
-  3, 8 seconds
+  - *3*, 8 seconds,
 
-  4, 16 seconds
+  - *4*, 16 seconds,
 
-  5, 32 seconds.
+  - *5*, 32 seconds.
   
