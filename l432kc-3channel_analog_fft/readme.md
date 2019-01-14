@@ -23,7 +23,9 @@ to the user. Every 1/3 of sampling time, the sampled data is transferred to a ne
 buffer and its FFT computed and scaled.
 
   In addition, serial port routines have beed expanded so to use circular buffer and
-Arduino-like serial port handler.
+Arduino-like serial port handler. See the file *stm32l4xx_hal_uart.c* and
+its header *stm32l4xx_hal_uart.h*  in *Drivers/STM32L4xx_HAL_Driver*, Src and Inc directories, respectively.
+
 
 - Commands for manipulating the device can be received by the device only if the
 device is in *quiet* mode. The device samples the data continously, but only in
