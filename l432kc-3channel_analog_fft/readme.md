@@ -22,7 +22,7 @@ an interrupt on end-of-conversion (EOC), which invokes DMA to transfer data back
 to the user. Every 1/3 of sampling time, the sampled data is transferred to a new
 buffer and its FFT computed and scaled.
 
-In addition, serial port routines have beed expanded so to use circular buffer and
+  In addition, serial port routines have beed expanded so to use circular buffer and
 Arduino-like serial port handler.
 
 - Commands for manipulating the device can be received by the device only if the
