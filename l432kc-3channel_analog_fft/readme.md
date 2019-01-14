@@ -14,11 +14,16 @@ single precision, and at regular intervals printed on the serial port.
 equivalently, width of frequency bin of 1, 2, 4, 8, 16 or 32 Hz,
 and max frequency of 512, 256, 128, 64, 32 or 16 Hz.
 
-- the device has two states: *print* (fft data to serial port), or *quiet* (accepts
-change in configuration). Serial port parameters are: the speed is 115,200 bps, then 8N1
+- serial port parameters are: the speed is 115,200 bps, then 8N1
 for 8 data bits, no parity check and 1 stop bit.
 
-- Commands for manipulating the device:
+- Commands for manipulating the device can be received by the device only if the
+device is in *quiet* mode. The device samples the data continously, but only in
+*print* mode it performs the fast fourier transform and prints the data on serial port..
+
+  To stop printing and go to *quiet* mode:
+
+  - *q*
 
   All modulation amplitudes are scaled (and clipped) to
 
@@ -34,21 +39,22 @@ for 8 data bits, no parity check and 1 stop bit.
   value is 0, this is printed as '_'. Following last non-zero entry for modulation
   amplitude 'X' is printed, meaning that the remaining amplitudes are all zero. 
 
+
   The sampling period is specified as follows:
 
-  - *0*, 1 second,
+  - *0*, 1 second
 
-  - *1*, 2 seconds,
+  - *1*, 2 seconds
 
-  - *2*, 4 seconds,
+  - *2*, 4 seconds
 
-  - *3*, 8 seconds,
+  - *3*, 8 seconds
 
-  - *4*, 16 seconds,
+  - *4*, 16 seconds
 
   - *5*, 32 seconds.
   
-  
+
   Other commands, in *quiet* mode:
 
   - *f*, print firmware revision
@@ -57,9 +63,4 @@ for 8 data bits, no parity check and 1 stop bit.
 
   - *s*, do not print labels
 
-  - *p*, go to printing mode.
-
-
-  To stop printing and go to *quiet* mode:
-
-  - *q*
+  - *p*, go to printing mode, resume printing of the FFT modulation amplitudes.
