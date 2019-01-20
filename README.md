@@ -18,3 +18,17 @@ manual that if that happens the damper is gone but I had to use it because I did
 spare in reserve.
 
 This is where the story starts and is still going on strong.
+
+### Not all dampers are the same
+
+I operated washing machine with the damaged damper, and it seemed that there
+were excessive vibrations.
+Not reading the service manual I ordered a damper that seemed right. When it arrived I installed
+it and noticed even worse performance. Then I started noticing that not all the dampers
+are the same.
+Went back on line and from the garage bay site ordered set of dampers advertised as new.
+When they arrived I put them in and noticed that by the dates stamped on the dampers
+these are in fact very old dampers.
+First one was total failure.
+At that point I asked myself how can I quantify my experiences.
+
