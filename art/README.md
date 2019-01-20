@@ -21,4 +21,7 @@ the spectrum shows strong vibrations over range of frequencies (consistent with 
 ![image1](https://github.com/mkostrun/vibrometer/blob/master/art/lg-d2-201901121137-ch2.png?raw=true)
 
 Fig. 2: Spectrograms for D1 (top) and D2 (bottom) for acceleration along Y (left/right)
-axis. Same banging at around 12.5 minute is present for D1.
+axis. Same banging at around 12.5 minute is present for D1, which forces the washing machine
+drum controller during the spin cycle to increase the RPM from
+approximately 17 Hz (1020 RPM) to 20 Hz (1200 RPM).
+For D2 the entire spin cycle is done at approximately 17 Hz.
