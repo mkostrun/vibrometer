@@ -3,6 +3,11 @@
 
 ![image1](https://github.com/mkostrun/vibrometer/blob/master/art/lg-d1-201901120934-ch2.png?raw=true)
 
+Fig. 1: Spectrogram of empty washing machine in speed wash which might have faulty
+one of the dampers (shock absorbers).
+At around 12.5 minutes the strong oscillations at low frequencies (banging)
+force the controller to increase the spin frequency from 17 Hz to 20 Hz.
+
 
 ### Motivation
 
