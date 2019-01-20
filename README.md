@@ -31,4 +31,11 @@ When they arrived I put them in and noticed that by the dates stamped on the dam
 these are in fact very old dampers.
 First one was total failure.
 At that point I asked myself how can I quantify my experiences.
+I found two solutions:
+
+1. Some android phones have built in accelerometers. Mine can sample with rate up to 100 Hz,
+and applications exist which allow data to be saved locally and exported.
+
+2. Build a vibrometer using embedded system platform and use an analog accelerometer for
+sensing.
 
