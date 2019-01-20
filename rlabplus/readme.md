@@ -15,3 +15,7 @@ separate files *ch1*, *ch2* and *ch3*.
 and create their spectrograms. Optional parameters are the starting and ending time
 for the fft's as only the spin cycle is the most interesting one.
 
+The filenames to which data are saved are timestamped with
+the format "%Y%m%d%H%M", and prepended by the project name, here "lg",
+and session, here "d1" or "d2" for two different dampers that were compared.
+
