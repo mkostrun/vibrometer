@@ -1,7 +1,7 @@
 # vibrometer
  
 
-## Motivation
+### Motivation
 
 So I got this life-is-good front-load washing machine a few years ago. Recently it started making loud
 noises during spin cycle. Finally, it would just refuse to start the spin cycle and instead
@@ -19,7 +19,7 @@ spare in reserve.
 
 This is where the story starts and is still going on strong.
 
-### Not all dampers are the same
+#### Not all dampers are the same
 
 I operated washing machine with the damaged damper, and it seemed that there
 were excessive vibrations.
@@ -37,5 +37,11 @@ I found two solutions:
 and applications exist which allow data to be saved locally and exported.
 
 2. Build a vibrometer using embedded system platform and use an analog accelerometer for
-sensing.
+sensing. Analog sensing is important because it is simpler and low pass filtering, or
+integration, can be added.
+
+I did test the first one, and did not like it. The second one took me few days to build and
+program and gave me amount of control over data acquisition that I preferred, so I went with it.
+
+
 
