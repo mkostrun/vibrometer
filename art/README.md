@@ -35,3 +35,9 @@ Spectrogram for D1 is reacher in modes than for damper D2.
 ![image1](https://github.com/mkostrun/vibrometer/blob/master/art/lg-d2-201901121137-ch3.png?raw=true)
 
 Fig. 3: Spectrograms for D1 (top) and D2 (bottom) for acceleration along Z (back/forth) axis.
+Then the washing machine is noisier with D1 then D2 is obvious from reachness of the
+excited modes of the oscillations. For D2 only the 10 Hz mode is significant with
+the modulation amplitude of the order of 0.001. For D1 besides 10 Hz mode its subharmonic
+at 5 Hz and 25 Hz harmonic are present, as well.
+Spectrogram for D1 is reacher in modes than for damper D2.
+
