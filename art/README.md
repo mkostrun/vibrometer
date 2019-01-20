@@ -29,3 +29,9 @@ drum controller during the spin cycle to increase the RPM from
 approximately 17 Hz (1020 RPM) to 20 Hz (1200 RPM).
 For D2 the entire spin cycle is done at approximately 17 Hz.
 Spectrogram for D1 is reacher in modes than for damper D2.
+
+
+![image1](https://github.com/mkostrun/vibrometer/blob/master/art/lg-d1-201901120934-ch3.png?raw=true)
+![image1](https://github.com/mkostrun/vibrometer/blob/master/art/lg-d2-201901121137-ch3.png?raw=true)
+
+Fig. 3: Spectrograms for D1 (top) and D2 (bottom) for acceleration along Z (back/forth) axis.
