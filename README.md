@@ -12,3 +12,9 @@ and fairly quick.
     So I ordered bearings from no-name vendor on brasilian river named web site and on the day
 they were supposed to arrive started the work.
 
+Eventually everything was put together with new bearings, but in the process of assembly I have
+noticed that one damper got extended to its maximum length. I recall reading in the service
+manual that if that happens the damper is gone but I had to use it because I did not have
+spare in reserve.
+
+This is where the story starts and is still going on strong.
