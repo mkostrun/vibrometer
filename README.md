@@ -1,5 +1,8 @@
 # vibrometer
- 
+
+
+![image1](https://github.com/mkostrun/vibrometer/blob/master/art/lg-d1-201901120934-ch2.png?raw=true)
+
 
 ### Motivation
 
