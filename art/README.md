@@ -5,6 +5,15 @@ using 'Speed Wash' with wash cold, using medium spin cycle, and soil level light
 The cycle lasts some 16 minutes of which the first 10 min is the wash cycle
 followed by 6 min long spin cycle.
 
+There were two recorded sessions with the parameters "4c" (see firmware section):
+
+- sampling interval 4 sec (frequency bin 0.25 Hz)
+
+- modulational amplitude scaling 0.01
+
+
+Between the sessions the washing machine damper was changed:
+
 1. Third leg with damper designated 'D1', which performance was deemed poor.
 
 2. Third leg with damper designated 'D2', which performance was deemed satisfactory.
