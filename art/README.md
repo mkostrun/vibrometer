@@ -7,10 +7,9 @@ followed by 6 min long spin cycle.
 
 There were two recorded sessions with the parameters "4c" (see firmware section):
 
-- sampling interval 4 sec (frequency bin 0.25 Hz)
+- sampling interval 4 sec, or frequency bin of 0.25 Hz ('4');
 
-- modulational amplitude scaling 0.01
-
+- modulational amplitude scaling 0.01 ('c').
 
 Between the sessions the washing machine damper was changed:
 
