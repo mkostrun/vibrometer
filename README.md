@@ -56,13 +56,22 @@ integration, can be added.
 I did test the first one, and did not like it. The second one took me few days to build and
 program and gave me amount of control over data acquisition that I preferred, so I went with it.
 
-The following project provides three folders:
+The *vibrometer* project provides three folders:
 
-1. *art* - spectrograms collected under different circumstances using the sensor system.
+1. *art* - spectrograms collected under different circumstances using the described sensor system.
 
 2. *l432kc-3channel_analog_fft* - firmware for STM32L432KC that does the data collection,
 3 channel FFT processing and prints modulation amplitudes to serial port.
 Also provided are routines for interrupt printing with circular buffer over serial port.
 
 3. *rlabplus* - scripts for demo, data recording and data analysis.
+
+
+## Concluding remarks
+
+The sensor system worked quite well providing distinction between different dampers used
+in solving the vibration problem.
+Additional discussions with bearing manufacturer representative suggested that no-name bearings
+might last another year or so, but then fail again.
+I have ordered another set of dampers, and will post their results once I install them.
 
