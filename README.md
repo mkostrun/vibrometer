@@ -7,6 +7,8 @@ Fig. 1: Spectrogram of empty washing machine in speed wash which might have faul
 one of the dampers (shock absorbers).
 At around 12.5 minutes the strong oscillations at low frequencies (banging)
 force the controller to increase the spin frequency from 17 Hz to 20 Hz.
+The spectral data was collected using the 3-channel analog accelerometer ADXL335
+and the STM32L432KC (ARM Cortex M4) development board.
 
 
 ### Motivation
