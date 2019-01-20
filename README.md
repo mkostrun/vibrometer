@@ -40,6 +40,9 @@ Went back on line and from the garage bay site ordered set of dampers advertised
 When they arrived I put them in and noticed that by the dates stamped on the dampers
 these are in fact very old dampers.
 First one was total failure.
+
+## Introduction
+
 At that point I asked myself how can I quantify my experiences.
 I found two solutions:
 
@@ -53,5 +56,13 @@ integration, can be added.
 I did test the first one, and did not like it. The second one took me few days to build and
 program and gave me amount of control over data acquisition that I preferred, so I went with it.
 
+The following project provides three folders:
 
+1. *art* - spectrograms collected under different circumstances using the sensor system.
+
+2. *l432kc-3channel_analog_fft* - firmware for STM32L432KC that does the data collection,
+3 channel FFT processing and prints modulation amplitudes to serial port.
+Also provided are routines for interrupt printing with circular buffer over serial port.
+
+3. *rlabplus* - scripts for demo, data recording and data analysis.
 
