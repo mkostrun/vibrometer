@@ -11,3 +11,7 @@ axis once a second, all on the same plot.
 2. *main2_record.r3* - collect data from sensor, plot it, and save it to three
 separate files *ch1*, *ch2* and *ch3*.
 
+3. *main3_plotfft.r3* - load saved data from files *ch1*, *ch2* and *ch3*,
+and create their spectrograms. Optional parameters are the starting and ending time
+for the fft's as only the spin cycle is the most interesting one.
+
